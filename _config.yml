@@ -42,7 +42,7 @@ timezone:      null
 title: 52大数据
 description: Jason专属的大数据知识分享平台
 keywords: 我爱大数据
-url: https://linqunxuan.github.io/kunka
+url: https://linqunxuan.github.io/52dashuju
 feed: /atom.xml
 favicon: http://jekyllrb.com/favicon.png
 
@@ -68,7 +68,7 @@ author:
     detailIntro:
       <p>8年以上电商互联网广告、新闻资讯个性化推荐、算法、模型等方面的技术研发和lead管理工作。</p>
       <p>关注大规模数据处理，包括Hadoop，YARN，MapReduce，Spark等。</p>
-      <p>目前在网易工作</p>
+      <p>目前在网易工作。</p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
