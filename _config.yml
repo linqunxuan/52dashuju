@@ -62,7 +62,7 @@ nav:
 #Author config
 author:
     name: Jason
-    email: jasonlin_2008
+    email: jasonlin_2008@163.com
     imageLink: http://oqlp7mlvn.bkt.clouddn.com/logo.jpg
     simpleIntro: Never say die.
     detailIntro:
@@ -88,12 +88,8 @@ follow:
 #Links
 customLinks:
   - item:
-    - text: 掌心
-      url: http://www.zhanxin.info
     - text: Jekyll
       url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
     message: Friends
   - item:
     - text: Font Awesome
@@ -115,5 +111,5 @@ disqus:
   id: piznblog
 
 duoshuo:
-  config: true
+  config: false
   id: zhanxin
