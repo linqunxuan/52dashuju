@@ -56,8 +56,8 @@ nav:
     url: /archives.html
   - text: 联系我
     url: /contact.html
-  - text: 友情链接
-    url: /links.html
+#  - text: 友情链接
+#    url: /links.html
 
 #Author config
 author:
@@ -96,11 +96,11 @@ customLinks:
     message: Friends
   - item:
     - text: Font Awesome
-      url: http://fortawesome.github.io/Font-Awesome/
+      url: https://fortawesome.github.io/Font-Awesome/
     - text: Google Font
-      url: http://www.google.com/fonts/
+      url: https://www.google.com/fonts/
     - text: jQuery
-      url: http://jquery.com/
+      url: https://jquery.com/
     message: 其他相关链接
 
 #googleAnaly, your id link UA-12345678-X
