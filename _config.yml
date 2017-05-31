@@ -39,9 +39,9 @@ timezone:      null
 
 
 #Site config
-title: Jekyll Theme
-description: Just another Jekyll theme design and code by zhanxin.info.
-keywords: Jekyll Theme
+title: 52大数据
+description: Jason专属的大数据知识分享平台
+keywords: 我爱大数据
 url: https://linqunxuan.github.io/kunka
 feed: /atom.xml
 favicon: http://jekyllrb.com/favicon.png
@@ -61,14 +61,14 @@ nav:
 
 #Author config
 author:
-    name: Json
-    email: 304721841@qq.com
+    name: Jason
+    email: jasonlin_2008
     imageLink: http://oqlp7mlvn.bkt.clouddn.com/logo.jpg
     simpleIntro: Never say die.
     detailIntro:
-      <p>8年以上电商广告系统、新闻资讯推荐系统的架构与开发经验。 </p>
-      <p>关注大规模数据处理，包括Hadoop，YARN，MapReduce，Spark等。</p> 
-      <p>不忘初心，坚持学习。</p>
+      <p>目前在网易工作</p>
+      <p>8年以上电商广告系统、新闻资讯推荐系统等方面的技术研发和lead管理工作。</p>
+      <p>关注大规模数据处理，包括Hadoop，YARN，MapReduce，Spark等。</p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
