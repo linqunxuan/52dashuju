@@ -1,17 +1,16 @@
 ---
 title: 基于Hadoop1.2版本的MapReduce实现WordCount功能
-tags: [hadoop,mapreduce]
 categories: MapReduce
-date: 2013-06-18
+date: 2013-11-18
 ---
 
 
-> 
-前提: 
-hadoop集群搭建好
-hadoop版本: 1.2.x
-python版本: 2.6.x或2.7.x
-> 
+>
+> 前提: 
+> hadoop集群搭建好
+> hadoop版本: 1.2.x
+> python版本: 2.6.x或2.7.x
+>
 
 
 ### 在master的根目录建立 learn_hadoop/python_wordcount 并进入目录
@@ -132,12 +131,12 @@ chmod -R 775 run.sh
 ``` bash
 [root@master python_wordcount]# hadoop fs -lsr /output
 Warning: $HADOOP_HOME is deprecated.
--rw-r--r--   3 root supergroup          0 2017-04-14 01:28 /output/_SUCCESS
-drwxr-xr-x   - root supergroup          0 2017-04-14 01:28 /output/_logs
-drwxr-xr-x   - root supergroup          0 2017-04-14 01:28 /output/_logs/history
--rw-r--r--   3 root supergroup      16597 2017-04-14 01:28 /output/_logs/history/job_201704110143_0003_1492104524860_root_streamjob2185335538628447165.jar
--rw-r--r--   3 root supergroup      52682 2017-04-14 01:28 /output/_logs/history/job_201704110143_0003_conf.xml
--rw-r--r--   3 root supergroup        734 2017-04-14 01:28 /output/part-00000
+-rw-r--r--   3 root supergroup          0 2013-11-15 01:28 /output/_SUCCESS
+drwxr-xr-x   - root supergroup          0 2013-11-15 01:28 /output/_logs
+drwxr-xr-x   - root supergroup          0 2013-11-15 01:28 /output/_logs/history
+-rw-r--r--   3 root supergroup      16597 2013-11-15 01:28 /output/_logs/history/job_201311150126_0003_1492104524860_root_streamjob2185335538628447165.jar
+-rw-r--r--   3 root supergroup      52682 2013-11-15 01:28 /output/_logs/history/job_201704110143_0003_conf.xml
+-rw-r--r--   3 root supergroup        734 2013-11-15 01:28 /output/part-00000
 ```
 
 ### 发现hdfs上/output/part-00000 该文件为输出数据结果
