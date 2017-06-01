@@ -1,6 +1,5 @@
 ---
 title: 基于Hadoop1.2版本的MapReduce实现WordCount功能
-category: MapReduce
 categories: MapReduce
 date: 2013-11-18
 ---
@@ -149,6 +148,8 @@ hadoop fs -text /output/part-00000 | sort -k2 -rn
 
 #### 输出结果与本地测试结果一致，大功告成
 
-## END
+### © 著作权归作者所有，转载需联系作者
+
+### END
 
 
