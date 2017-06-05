@@ -29,11 +29,12 @@ $HADOOP_CMD jar $STREAM_JAR_PATH \
 
 - reducer: 用户自己写的reduce程序
 
-- file: 打包文件到提交的作用中，
+- file: 允许用户设置task的文件和文件档案,类似的配置还有-cacheFile, -cacheArchive分别用于向计算节点分发HDFS文件和HDFS压缩文件
 
-  （1）map和reduce的执行文件
+  分发的文件有如下:
 
-  （2）map和reduce要用输入的文件，如配置文件类似的配置还有-cacheFile, -cacheArchive分别用于向计算节点分发HDFS文件和HDFS压缩文件
+  1. map和reduce的执行文件
+  2. map和reduce要用到的数据文件、配置文件
 
 - jobconf: 提交作业的一些配置属性
 
@@ -78,3 +79,6 @@ Reducer task运行时，将输入的key-value数据转换成行数据，作为re
 * mapred.output.compression.codec  reduce的输出压缩方式
 * stream.map.output.field.separator  map输出分隔符
 
+### © 著作权归作者所有，转载需联系作者
+
+### END
