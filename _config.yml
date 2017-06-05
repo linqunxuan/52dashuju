@@ -42,7 +42,7 @@ timezone:      null
 title: 52大数据
 description: Jason专属的大数据知识分享平台
 keywords: 我爱大数据
-url: https://linqunxuan.github.io/52dashuju
+url: http://www.52dashuju.com
 feed: /atom.xml
 favicon: http://jekyllrb.com/favicon.png
 
