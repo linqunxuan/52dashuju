@@ -1,7 +1,7 @@
 ---
 title: Linux CPU负载告警规则——Top命令的load average划重点
+date: 2012-10-05 19:44:12
 categories: Linux运维
-date: 2012-10-05
 ---
 
 >Linux运维中,我们知道CPU会有负载过荷的情况,下面我来介绍一下这个负载告警的规则。
